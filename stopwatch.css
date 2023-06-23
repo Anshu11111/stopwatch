@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+body {
+    /* background-color: rgb(163, 214, 112); */
+    background-image: url(./watch.jpg);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    margin: 0px 7px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 100px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+}
+
+.digit {
+    font-size: 80px;
+    font-weight: 60px;
+
+
+}
+
+.txt {
+    font-size: 40px;
+    font-weight: 60px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    margin: 0px 10px;
+    padding: 7px 30px;
+    border-radius: 8px;
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: 20px;
+
+}
+
+#play {
+    background-color: darkgreen;
+    color: white;
+}
+
+
+#pause {
+    background-color: red;
+    color: white;
+}
+
+#reset {
+    background-color: cadetblue;
+    color: white;
+}
